@@ -10,7 +10,7 @@ public class DataSource {
     private static final HikariDataSource ds;
 
     static {
-        config.setJdbcUrl("jdbc:sqlite:mydatabase.db");
+        config.setJdbcUrl("jdbc:sqlite:lesson_2/mydatabase.db");
 //        config.setUsername( "database_username" );
 //        config.setPassword( "database_password" );
 //        config.addDataSourceProperty( "cachePrepStmts" , "true" );
