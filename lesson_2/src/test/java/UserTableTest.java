@@ -1,5 +1,3 @@
-import org.junit.Test;
-
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.sql.*;
@@ -25,7 +23,7 @@ public class UserTableTest {
 
 
 
-    @Test
+//    @Test
     public void createUserTest(){
         String userName = "Stranger";
         String plainUserPassword = "qwerty123";
@@ -63,7 +61,7 @@ public class UserTableTest {
         return sb.toString();
     }
 
-    @Test
+//    @Test
     public void authorizeUser(){
         String userName = "Stranger";
         String plainUserPassword = "qwerty123";
